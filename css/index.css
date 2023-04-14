@@ -1,3 +1,7 @@
-img{
+img {
     cursor: pointer;
+}
+
+body {
+    background: red;
 }
