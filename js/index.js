@@ -3,6 +3,8 @@ verwijderItem();
 
 const test = "update gebruiker";
 
+const nieuweConsole = "nieuweConsole";
+
 Array.from(toevoegenButtons).forEach(button => {
     button.addEventListener('click', (e) => {
         // De formulieren moeten niet gesubmit worden:
