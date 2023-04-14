@@ -1,6 +1,8 @@
 const toevoegenButtons = document.getElementsByTagName("button");
 verwijderItem();
 
+const test = "update gebruiker";
+
 Array.from(toevoegenButtons).forEach(button => {
     button.addEventListener('click', (e) => {
         // De formulieren moeten niet gesubmit worden:
